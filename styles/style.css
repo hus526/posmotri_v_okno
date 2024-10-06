@@ -125,6 +125,9 @@ ol {
   appearance: none; 
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
   outline: 1px solid #fff;
